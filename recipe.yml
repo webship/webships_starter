@@ -43,3 +43,10 @@ config:
       simpleConfigUpdate:
         # An API site does not take public registrations.
         register: admin_only
+  # The apps gallery content model needs these field types.
+  - image
+  - link
+  - file
+  - options
+  - datetime
+  - better_exposed_filters
