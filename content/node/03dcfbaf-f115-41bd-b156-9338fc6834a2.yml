@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 03dcfbaf-f115-41bd-b156-9338fc6834a2
+  bundle: organization
+  default_langcode: en
+  depends:
+    f4bdfe44-37dc-4d48-8fd5-e55b035c5b85: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal Community'
+  created:
+    -
+      value: 1789775505
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_description:
+    -
+      value: 'The contributors who build and maintain Drupal core and the contributed projects around it.'
+  field_organization_category:
+    -
+      entity: f4bdfe44-37dc-4d48-8fd5-e55b035c5b85

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 23028cbd-9548-4231-8a38-29d00083b56e
+  bundle: webpage
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Webships App Store'
+  created:
+    -
+      value: 1789775898
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /app-store
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: |-
+        <p>Webships is an app store for Drupal: a gallery of web apps and the organizations
+        that publish them, served over an API so any Drupal site can read it.</p>
+
+        <h2>What is in the gallery</h2>
+        <p>Every app has a description, a category, a link to its source code and the
+        organization behind it. Browse the <a href="/webapps">web apps</a> or the
+        <a href="/organizations">organizations</a>.</p>
+
+        <h2>Read it over the API</h2>
+        <p>The whole catalogue is published over JSON:API, read only, from the
+        <code>/api</code> prefix. Nothing needs to be installed to read it:</p>
+        <ul>
+          <li><a href="/api">/api</a> lists every resource this site serves.</li>
+          <li><a href="/api/node/webapp">/api/node/webapp</a> is the gallery itself.</li>
+          <li><a href="/api/node/organization">/api/node/organization</a> is the organizations.</li>
+        </ul>
+
+        <h2>Show these apps in your own site</h2>
+        <p>Install the WebApps module on any Drupal site, point it at this site, and the
+        apps listed here appear in its Project Browser.</p>
+      format: full_html
+      summary: ''

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5aba523d-cc7f-4808-843a-219158f8f4d6
+  bundle: webapp
+  default_langcode: en
+  depends:
+    6471a4c1-483c-4412-aada-1ada6397e947: node
+    44ac86be-2865-406d-947b-3d5e25b70dfc: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Webships Starter'
+  created:
+    -
+      value: 1789775505
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_description:
+    -
+      value: 'The default Webships site template. A gallery of web apps and the organizations behind them, published over JSON:API.'
+  field_organizations:
+    -
+      entity: 6471a4c1-483c-4412-aada-1ada6397e947
+  field_source_code:
+    -
+      uri: 'https://www.drupal.org/project/webships_starter'
+      resolvable_uri: 'https://www.drupal.org/project/webships_starter'
+      title: 'Project page'
+      options: {  }
+  field_webapp_category:
+    -
+      entity: 44ac86be-2865-406d-947b-3d5e25b70dfc

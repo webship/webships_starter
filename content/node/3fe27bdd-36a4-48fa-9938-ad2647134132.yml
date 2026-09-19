@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3fe27bdd-36a4-48fa-9938-ad2647134132
+  bundle: webapp
+  default_langcode: en
+  depends:
+    6471a4c1-483c-4412-aada-1ada6397e947: node
+    10cc756a-a13c-4fd9-96c3-da0a624417b9: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: WebAPI
+  created:
+    -
+      value: 1789775505
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_description:
+    -
+      value: 'Serves a Drupal site over JSON:API with documentation, using core JSON:API and contributed modules from drupal.org.'
+  field_organizations:
+    -
+      entity: 6471a4c1-483c-4412-aada-1ada6397e947
+  field_source_code:
+    -
+      uri: 'https://www.drupal.org/project/webapi'
+      resolvable_uri: 'https://www.drupal.org/project/webapi'
+      title: 'Project page'
+      options: {  }
+  field_webapp_category:
+    -
+      entity: 10cc756a-a13c-4fd9-96c3-da0a624417b9

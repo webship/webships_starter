@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f0223c61-64cf-4fa1-9818-157e7cba16a6
+  bundle: webapp
+  default_langcode: en
+  depends:
+    03dcfbaf-f115-41bd-b156-9338fc6834a2: node
+    10cc756a-a13c-4fd9-96c3-da0a624417b9: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Project Browser'
+  created:
+    -
+      value: 1789775505
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_description:
+    -
+      value: 'Browse and install Drupal projects from inside the site. Reads its list of apps from a Webships site.'
+  field_organizations:
+    -
+      entity: 03dcfbaf-f115-41bd-b156-9338fc6834a2
+  field_source_code:
+    -
+      uri: 'https://www.drupal.org/project/project_browser'
+      resolvable_uri: 'https://www.drupal.org/project/project_browser'
+      title: 'Project page'
+      options: {  }
+  field_webapp_category:
+    -
+      entity: 10cc756a-a13c-4fd9-96c3-da0a624417b9

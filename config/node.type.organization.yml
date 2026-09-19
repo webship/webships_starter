@@ -6,11 +6,11 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus: {  }
-    parent: ''
+    parent: null
 name: Organization
 type: organization
 description: 'Use <em>Organization</em> to add organizations. So that they will be listed in the organizations section.'
-help: ''
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: false

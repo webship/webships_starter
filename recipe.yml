@@ -9,6 +9,10 @@ extra:
       - text: 'Learn more'
         url: 'https://www.drupal.org/project/webships_starter'
 recipes:
+  # Webpage first: it installs Node, Display Builder and the editorial
+  # workflow, and the front-end pages of this template are webpage nodes
+  # rendered through Display Builder.
+  - modules/contrib/webpage/recipes/default
   # The standard Drupal content model, for the editorial roles and the editor.
   - core/recipes/standard
   - core/recipes/tags_taxonomy

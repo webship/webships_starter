@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6471a4c1-483c-4412-aada-1ada6397e947
+  bundle: organization
+  default_langcode: en
+  depends:
+    d7f4e8cd-c969-4cac-9caa-d9d4f0309b4b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Webship
+  created:
+    -
+      value: 1789775505
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_description:
+    -
+      value: 'Builds the Webships installer, its site templates and the web components behind them.'
+  field_organization_category:
+    -
+      entity: d7f4e8cd-c969-4cac-9caa-d9d4f0309b4b

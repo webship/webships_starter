@@ -3,5 +3,5 @@ status: true
 dependencies: {  }
 name: 'WepApp Categories'
 vid: wepapp_categories
-description: ''
+description: null
 weight: 0

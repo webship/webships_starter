@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 95c9b917-cf31-4bfb-b874-e1fdf83acba1
+  bundle: webapp
+  default_langcode: en
+  depends:
+    6471a4c1-483c-4412-aada-1ada6397e947: node
+    44ac86be-2865-406d-947b-3d5e25b70dfc: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'WebAPI Starter'
+  created:
+    -
+      value: 1789775505
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_description:
+    -
+      value: 'The plain Drupal API site template: read-only JSON:API from an /api prefix, with OAuth 2.0 and Swagger UI documentation.'
+  field_organizations:
+    -
+      entity: 6471a4c1-483c-4412-aada-1ada6397e947
+  field_source_code:
+    -
+      uri: 'https://www.drupal.org/project/webapi_starter'
+      resolvable_uri: 'https://www.drupal.org/project/webapi_starter'
+      title: 'Project page'
+      options: {  }
+  field_webapp_category:
+    -
+      entity: 44ac86be-2865-406d-947b-3d5e25b70dfc
