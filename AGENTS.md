@@ -36,7 +36,7 @@ ddev drush cr
 ## Test
 
 ```shell
-ddev drush si -y webships installer_site_template_form.add_ons=webships_starter
+ddev drush site:install ../recipes/webships_starter -y
 ddev drush config:get jsonapi.settings read_only
 ddev drush config:get system.theme
 ```

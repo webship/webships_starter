@@ -22,7 +22,7 @@ template:
 
 ```shell
 ddev composer create-project drupal/webships_project:^1.0
-ddev drush si -y webships --account-name=webmaster installer_site_template_form.add_ons=webships_starter
+ddev drush site:install ../recipes/webships_starter -y --account-name=webmaster
 ```
 
 Or apply the recipe on an existing site:
