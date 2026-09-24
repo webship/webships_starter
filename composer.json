@@ -24,8 +24,8 @@
   "require": {
     "drupal/better_exposed_filters": "^7",
     "drupal/core": "^11.4 || ^12",
-    "drupal/webapi": "^1",
-    "drupal/webdash": "^1.0",
-    "drupal/webpage": "^12"
+    "drupal/webapi": "~1.0",
+    "drupal/webdash": "~1.0",
+    "drupal/webpage": "~12.0"
   }
 }
