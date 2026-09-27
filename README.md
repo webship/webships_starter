@@ -9,7 +9,7 @@ A web apps gallery with organizations, served through a documented API:
 - OAuth 2.0 with Simple OAuth and consumers, and HTTP Basic authentication.
 - OpenAPI documents for JSON:API and REST, rendered with Swagger UI at
   `/api-docs`.
-- The Drupal core administration theme for the back end and the front end.
+- The UIkit themes: UI Suite UIkit for the site, UIkit Admin for the back office.
 - Search and views for browsing the gallery.
 - Registration is closed: an administrator creates the accounts.
 
