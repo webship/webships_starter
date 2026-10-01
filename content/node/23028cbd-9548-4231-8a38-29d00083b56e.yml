@@ -34,7 +34,7 @@ default:
       alias: /app-store
       langcode: en
       pathauto: 0
-  body:
+  field_body:
     -
       value: |-
         <p>Webships is an app store for Drupal: a gallery of web apps and the organizations
@@ -58,4 +58,3 @@ default:
         <p>Install the WebApps module on any Drupal site, point it at this site, and the
         apps listed here appear in its Project Browser.</p>
       format: full_html
-      summary: ''
