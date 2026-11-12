@@ -35,6 +35,7 @@ install:
   - uikit_admin
   # The apps gallery is browsed and searched.
   - search
+  - search_node
   - views
   - views_ui
   - taxonomy
@@ -77,6 +78,13 @@ config:
       - block.block.uikit_admin_page_title
       - block.block.uikit_admin_primary_local_tasks
       - block.block.uikit_admin_secondary_local_tasks
+    # The search page of the gallery, /search/node, and the view modes of its
+    # index. Optional configuration of Search node, which a recipe does not
+    # install on its own.
+    search_node:
+      - core.entity_view_mode.node.search_index
+      - core.entity_view_mode.node.search_result
+      - search.page.node_search
   actions:
     # The main menu, in the navbar and in the offcanvas. Created here with an
     # unlimited depth: the theme ships it with a depth of 0, which fails
@@ -125,6 +133,11 @@ config:
         - 'delete %bundle revisions'
         - 'delete own %bundle content'
         - 'edit own %bundle content'
+    # Visitors and members search the gallery.
+    user.role.anonymous:
+      grantPermission: 'search content'
+    user.role.authenticated:
+      grantPermission: 'search content'
     system.theme:
       simpleConfigUpdate:
         default: ui_suite_uikit
