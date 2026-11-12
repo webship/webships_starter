@@ -136,6 +136,8 @@ config:
     system.site:
       simpleConfigUpdate:
         slogan: 'A web apps gallery, served through an API'
+        # The front page of the template, in content/node.
+        page.front: /app-store
     user.settings:
       simpleConfigUpdate:
         # An API site does not take public registrations.
